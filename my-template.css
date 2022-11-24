@@ -5,97 +5,96 @@
 @font-face {
 	font-family				: 'MrEavesRemake';
 	font-weight				: 400;
-	src								: url('../fonts/5e/Mr Eaves Small Caps.woff2');
-	unicode-range			: U+0030-0039;
+	src					: url('../fonts/5e/Mr Eaves Small Caps.woff2');
+	unicode-range				: U+0030-0039;
 	size-adjust				: 125%;
 }
 
 
 /* A4 Page Size */
 .phb{
-	width							: 210mm;
-	height						: 296.8mm;
+	width					: 210mm;
+	height					: 296.8mm;
 	padding-top				: 10mm;
-	padding-right			: 17mm;
-	padding-bottom		: 15mm;
-	padding-left			: 17mm;
+	padding-right				: 17mm;
+	padding-bottom				: 15mm;
+	padding-left				: 17mm;
 }
 
 
 /* Removes Drop Caps */
 .phb h1+p:first-letter {
-	all								: unset;
+	all					: unset;
 }
 
 
 /* Removes Small-Caps in first line */
 .phb h1+p:first-line {
-	all								: unset;
+	all					: unset;
 }
 
 
 .phb:nth-child(2n) .pageNumber {
-	left							: inherit !important;
-	right							: 2px !important
+	left					: inherit !important;
+	right					: 2px !important
 }
 
 .phb:nth-child(2n+1) .pageNumber {
-	right							: inherit !important;
-	left							: 2px !important
+	right					: inherit !important;
+	left					: 2px !important
 }
 
 .phb:nth-child(2n) .footnote {
-	left							: 510px;
+	left					: 510px;
 	text-align				: right
 }
 
 .phb:nth-child(2n+1) .footnote {
-	left							: 90px;
+	left					: 90px;
 	text-align				: left
 }
 
 .phb:nth-child(2n) {
-	background-image	: url('https://i.imgur.com/ptCCaCF.png');
-	background-size		:contain;
-	color							: #d3d3d3;
+	background-image			: url('https://i.imgur.com/ptCCaCF.png');
+	background-size				:contain;
+	color					: #d3d3d3;
 }
 
 .phb:nth-child(2n+1) {
-	background-image	: url('https://i.imgur.com/pkN47Lw.png?1');
-	background-size		:contain;
-	color							: #d3d3d3;
+	background-image			: url('https://i.imgur.com/pkN47Lw.png?1');
+	background-size				:contain;
+	color					: #d3d3d3;
 }
 
 
 .phb .footnote{
-	bottom						: 25px;
-	color							: #f1af09;
-	text-shadow: 1px 1px 1px #000000,-1px 1px 1px #000000,1px -1px 1px #000000,-1px -1px 1px #000000;
+	bottom					: 25px;
+	color					: #f1af09;
+	text-shadow				: 1px 1px 1px #000000,-1px 1px 1px #000000,1px -1px 1px #000000,-1px -1px 1px #000000;
 }
 
 .phb .pageNumber{
-	bottom						: 30px;
-	color							: #f1af09;
-	font-size					: 13px;
+	bottom					: 30px;
+	color					: #f1af09;
+	font-size				: 13px;
 	text-shadow				: 1px 1px 1px #000000,-1px 1px 1px #000000,1px -1px 1px #000000,-1px -1px 1px #000000;
 }
 
 .phb:after {
-	bottom						: 30px;
-	background-image	: none;
+	all					: unset;
 }
 
 .phb table tr:nth-child(odd) td {
 	background				: none;
-	background-color	: #625153;
+	background-color			: #625153;
 }
 
 .phb .note, .phb .descriptive {
-	background-color	: #212224;
+	background-color			: #212224;
 }
 
 .phb [class*="watercolor"] {
-	background-color	: #474a51 !important;
+	background-color			: #474a51 !important;
 }
 
 
@@ -105,75 +104,75 @@
 }
 
 .phb .monster hr {
-	background-image	: url(https://i.imgur.com/soxLpIZ.png);
+	background-image			: url(https://i.imgur.com/soxLpIZ.png);
 }
 
 .phb .monster dt, dd, tr{
-	color							: #d3d3d3;
+	color					: #d3d3d3;
 }
 
 .phb .monster h3 {
-	border-bottom			: 2px solid #f1af09
+	border-bottom				: 2px solid #f1af09
 }
 
 .phb .block.monster.frame {
-	background-image	: unset;
-	background-color	: #212224;
-	border-width			: 5px;
-	border-image			: url(https://i.imgur.com/5KxXe0N.png);
+	background-image			: unset;
+	background-color			: #212224;
+	border-width				: 5px;
+	border-image				: url(https://i.imgur.com/5KxXe0N.png);
 	border-image-slice: 20
 }
 
 /* Formatação */
 
 .phb h1 {
-	font-size					: 28.5px;
-	color							: #CAD613;
+	font-size				: 28.5px;
+	color					: #CAD613;
 }
 
 .phb h2 {
-	font-size					: 24.5px;
-	color							: #CAD613;
+	font-size				: 24.5px;
+	color					: #CAD613;
 }
 
 .phb h3 {
-	font-size					: 20.5px;
-	color							: #CAD613;
-	border-bottom			: 2px solid #f1af09
+	font-size				: 20.5px;
+	color					: #CAD613;
+	border-bottom				: 2px solid #f1af09
 }
 
 .phb h4 {
-	font-size					: 16.5px;
-	color							: #CAD613;
+	font-size				: 16.5px;
+	color					: #CAD613;
 }
 
 .phb h5 {
-	font-size					: 14,5px;
-	text-decoration		: underline;
-	color							: #99a30e;
+	font-size				: 14,5px;
+	text-decoration				: underline;
+	color					: #99a30e;
 }
 
 .phb h6 {
-	font-size					: 12.5px;
-	color							: #d3d3d3;
+	font-size				: 12.5px;
+	color					: #d3d3d3;
 }
 
 .phb li {
-	font-size					: 12.5px;
+	font-size				: 12.5px;
 	text-align				: justify;
 }
 
 .phb table {
-	font-size					: 9pt;
+	font-size				: 9pt;
 }
 
 .phb table th {
 	text-align				: center;
-	color							: #CAD613
+	color					: #CAD613
 }
 
 .phb p {
-	font-size					: 12.5px;
+	font-size				: 12.5px;
 	text-align				: justify;}
 
 
@@ -190,10 +189,10 @@
   }
   
   .frame.whole {
-  	top							: 0 !important;
-  	left						: 0 !important;
+  	top					: 0 !important;
+  	left					: 0 !important;
   	height					: 100% !important;
-  	width						: 100% !important;
+  	width					: 100% !important;
   }
   
   
@@ -206,10 +205,10 @@
   /* Watercolor frames */
   
   .wcFrame {
-  	position							: absolute;
-    -webkit-mask-repeat		: no-repeat;
-    -webkit-mask-size			: contain;
-    -webkit-mask-position	: center;
+  	position				: absolute;
+    -webkit-mask-repeat				: no-repeat;
+    -webkit-mask-size				: contain;
+    -webkit-mask-position			: center;
   	
   }
   
@@ -218,126 +217,126 @@
   }
   
   .wcFrame.circle1 {
-  	-webkit-mask-image: url('https://i.imgur.com/rVTIXGr.png');
+  	-webkit-mask-image			: url('https://i.imgur.com/rVTIXGr.png');
   }
   
   .wcFrame.circle2 {
-  	-webkit-mask-image: url('https://i.imgur.com/A2saYTi.png');
+  	-webkit-mask-image			: url('https://i.imgur.com/A2saYTi.png');
   }
 
   .wcFrame.left {
-  	-webkit-mask-image: url('https://i.imgur.com/ciLZuBc.png');
+  	-webkit-mask-image			: url('https://i.imgur.com/ciLZuBc.png');
   }
   
   .wcFrame.top {
-    -webkit-mask-image: url('https://i.imgur.com/ghviFil.png');
-  	mask-type					:alpha;
+    -webkit-mask-image				: url('https://i.imgur.com/ghviFil.png');
+  	mask-type				:alpha;
   }
 
 /* HYPERLINKS */
 .phb a {
-	color								: #00f2f2;
-	text-decoration			: none;
+	color					: #00f2f2;
+	text-decoration				: none;
 }
 
 .phb a:hover{
-	text-decoration			: underline;
+	text-decoration				: underline;
 }
 
 
 /* FRONT COVER _____________________________________________________ */
 .phb#p1 h1 {
-	--shadow-x0					: #000 0px 0px 3.5px;
-	--shadow-x1					: var(--shadow-x0), var(--shadow-x0), var(--shadow-x0);
-	--shadow-x2					: var(--shadow-x1), var(--shadow-x1), var(--shadow-x1);
-	--shadow-x3					: var(--shadow-x2), var(--shadow-x2), var(--shadow-x2);
-	text-shadow					: var(--shadow-x3), var(--shadow-x3), var(--shadow-x3);
-	font-family					: Nodesto;
-	font-weight					: normal;
-	font-size						: 6em;
-	color								: white;
-	line-height					: 70px;
-	transform						: scaleX(0.94);
-	text-transform			: uppercase;
+	--shadow-x0				: #000 0px 0px 3.5px;
+	--shadow-x1				: var(--shadow-x0), var(--shadow-x0), var(--shadow-x0);
+	--shadow-x2				: var(--shadow-x1), var(--shadow-x1), var(--shadow-x1);
+	--shadow-x3				: var(--shadow-x2), var(--shadow-x2), var(--shadow-x2);
+	text-shadow				: var(--shadow-x3), var(--shadow-x3), var(--shadow-x3);
+	font-family				: Nodesto;
+	font-weight				: normal;
+	font-size				: 6em;
+	color					: white;
+	line-height				: 70px;
+	transform				: scaleX(0.94);
+	text-transform				: uppercase;
 }
 
 .phb#p1 hr {
-	visibility					: visible;
-	position						: relative;
-	top									: -16px;
-	height							: 64px;
-	width								: 450px;
-	margin							: 2px auto -24px;
-	background-image		: url(https://i.imgur.com/U4Cveto.png);
-	background-size			: 100% 100%;
-	border							: none;
+	visibility				: visible;
+	position				: relative;
+	top					: -16px;
+	height					: 64px;
+	width					: 450px;
+	margin					: 2px auto -24px;
+	background-image			: url(https://i.imgur.com/U4Cveto.png);
+	background-size				: 100% 100%;
+	border					: none;
 }
 
 .phb#p1 h2 {
-	--shadow-x0					: #000 0px 0px 2.5px;
-	--shadow-x1					: var(--shadow-x0), var(--shadow-x0), var(--shadow-x0);
-	--shadow-x2					: var(--shadow-x1), var(--shadow-x1), var(--shadow-x1);
-	--shadow-x3					: var(--shadow-x2), var(--shadow-x2), var(--shadow-x2);
-	text-shadow					: var(--shadow-x3), var(--shadow-x3), var(--shadow-x3);
-	font-family					: Nodesto;
-	font-weight					: normal;
-	font-size						: 2em;
-	letter-spacing			: 0.3px;
-	color								: white;
+	--shadow-x0				: #000 0px 0px 2.5px;
+	--shadow-x1				: var(--shadow-x0), var(--shadow-x0), var(--shadow-x0);
+	--shadow-x2				: var(--shadow-x1), var(--shadow-x1), var(--shadow-x1);
+	--shadow-x3				: var(--shadow-x2), var(--shadow-x2), var(--shadow-x2);
+	text-shadow				: var(--shadow-x3), var(--shadow-x3), var(--shadow-x3);
+	font-family				: Nodesto;
+	font-weight				: normal;
+	font-size				: 2em;
+	letter-spacing				: 0.3px;
+	color					: white;
 }
 
 .phb#p1 {
-	text-align					: center;
-	counter-increment		: none;
+	text-align				: center;
+	counter-increment			: none;
 }
 
 .phb#p1:after {
-	display							:none;
+	display					:none;
 }
 
 /* BACK COVER _____________________________________________________ */
 .phb:last-child {
 	column-count				: 1;
-	padding-top					: 30px;
+	padding-top				: 30px;
 	padding-left				: 30px;
 	padding-right				: 440px;
-	padding-bottom			: 30px
+	padding-bottom				: 30px
 }
 
 .phb:last-child:after {
-	all: unset;
+	all					: unset;
 }
 
 .phb:last-child h1 {
-	text-align					: center;
-	font-family					: "Nodesto";
-	font-size						: 300%;
-	font-weight					: normal;
-	letter-spacing			: -1px;
-	line-height					: 0.9em;
-	transform						: scaleX(1);
-	color								: white;
+	text-align				: center;
+	font-family				: "Nodesto";
+	font-size				: 300%;
+	font-weight				: normal;
+	letter-spacing				: -1px;
+	line-height				: 0.9em;
+	transform				: scaleX(1);
+	color					: white;
 	margin-bottom				: 25px;
 }
 
 .phb:last-child h2 {
-	text-align					: center
+	text-align				: center
 }
 
 .phb:last-child p {
-	text-align					: center
+	text-align				: center
 }
 
 .phb:last-child hr {
-	visibility					: visible;
-	position						: relative;
-	margin							: auto;
+	visibility				: visible;
+	position				: relative;
+	margin					: auto;
 	margin-bottom				: 25px;
-	top									: 25px;
-	height							: 52px;
-	width								: 230px;
-	background-image		: url(https://i.imgur.com/U4Cveto.png);
-	background-size			: 100% 50%;
-	background-repeat		: no-repeat;
-	border							: none;
+	top					: 25px;
+	height					: 52px;
+	width					: 230px;
+	background-image			: url(https://i.imgur.com/U4Cveto.png);
+	background-size				: 100% 50%;
+	background-repeat			: no-repeat;
+	border					: none;
 }

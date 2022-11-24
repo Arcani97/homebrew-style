@@ -25,13 +25,7 @@
   .phb:after {
   	display:none;
   }
-  
-  
-  
-  .phb:nth-of-type(1) {
-  	background-image:url('https://i.imgur.com/SK0nuuC.png');
-  }
-  
+
     /* PAGE NUMBERS */
   
   .phb .pageNumber.auto {

@@ -51,6 +51,9 @@
   
   /* TEXT TEXT TEXT */
   
+  .phb h3, .phb h2 {margin-top:25px}
+  
+  .phb h4, .phb h3 {margin-bottom:5px}
   
   .phb p, .phb table, .phb ul, .phb blockquote, .phb blockquote strong  {
   	font-family:'Reenie Beanie';

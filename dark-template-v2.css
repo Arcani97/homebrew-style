@@ -1,0 +1,400 @@
+
+/* Style Created by Arcani97 */
+
+/* Font Import */
+
+@import url("https://rawcdn.githack.com/Kaiburr-kath-hound/HomebreweryStyles/7758abe0bc0c2ed4ee70f90cf1c28840f2c96aab/PHBFonts.css");
+
+@font-face {
+        font-family             : 'MrEavesRemake';
+        font-weight             : 400;
+        src                     : url('../fonts/5e/Mr Eaves Small Caps.woff2');
+        unicode-range           : U+0030-0039;
+        size-adjust             : 125%;
+    }
+
+
+/* Page Config */
+.phb {
+        width                   : 210mm;
+        height                  : 296.8mm;
+        padding                 : 10mm 17mm 15mm 17mm;
+        box-shadow              : none;
+    }
+
+
+/* Removes Drop Caps */
+.phb h1+p:first-letter {
+        all			: unset;
+    }
+
+
+/* Background Config */
+.phb:nth-child(2n) {
+        background-image        : url('https://i.imgur.com/ptCCaCF.png');
+        background-size         : contain;
+        color			: #d3d3d3;
+    }
+
+.phb:nth-child(2n+1) {
+        background-image        : url('https://i.imgur.com/pkN47Lw.png?1');
+        background-size         : contain;
+    }
+
+.phb:after {
+        all			: unset;
+    }
+
+
+/* Footnote and Page Number Config */
+
+.phb:nth-child(2n) .footnote {
+        left                    : 500px;
+        bottom                  : 20px;
+        text-align              : right;
+    }
+
+.phb:nth-child(2n+1) .footnote {
+        left                    : 90px;
+        bottom                  : 20px;
+        text-align              : left;
+    }
+
+.phb:nth-child(2n) .pageNumber {
+        left                    : inherit;
+        bottom                  : 30px;
+        right                   : 10px;
+    }
+
+.phb:nth-child(2n+1) .pageNumber {
+        right                   : inherit;
+        bottom                  : 30px;
+        left                    : 10px;
+    }
+
+
+/* Text Config */
+
+/* -> Text Fonts */
+.phb {
+        font-family             : 'Cambria', sans-serif;
+    }
+
+
+/* -> Color Config */
+
+.phb h1, .phb h2, .phb h3, .phb h4, .phb table th {
+        color			: #cad613;
+    }
+
+.phb h5 {
+        color			: #99a30e;
+    }
+
+.phb {
+        color			: #d3d3d3;
+    }
+
+
+/* -> Size Config */
+
+.phb h1 {
+        font-size               : 28.5px;
+    }
+
+.phb h2 {
+        font-size               : 24.5px;
+    }
+
+.phb h3 {
+        font-size               : 20.5px;
+    }
+
+.phb h4 {
+        font-size               : 16.5px;
+    }
+
+.phb h5 {
+        font-size               : 14,5px;
+    }
+
+.phb h6 {
+        font-size               : 12.5px;
+    }
+
+.phb li {
+        font-size               : 12.5px;
+    }
+
+.phb table {
+        font-size               : 9pt;
+    }
+
+.phb p {
+        font-size               : 12.5px;
+    }
+
+
+/* -> Text Decoration */
+
+.phb h3 {
+        border-bottom           : 2px solid #f1af09;
+    }
+
+.phb h5 {
+        text-decoration         : underline;
+    }
+
+
+/* -> Text Align */
+
+.phb {
+        text-align              : left;
+    }
+
+.phb table th {
+        text-align              : center;
+    }
+
+.phb p, .phb li {
+        text-align              : justify;
+    }
+
+.center {
+        text-align              : center;
+    }
+
+
+/* Tables */
+table tr:nth-child(odd) td {
+        background-color        : #454d47;
+    }
+
+
+/* Notes Block*/
+.phb blockquote {
+        background-color        : #212224;
+        box-shadow              : 0px 0px 50px -10px #6b6b65;
+    }
+
+
+/*Description Block*/
+.phb .descriptive{
+        background-color        : #212224;
+        box-shadow              : 0px 0px 50px -10px #6b6b65;
+        border-image            : url('https://i.imgur.com/XacCmdq.png');
+        border-image-slice      : 10;
+        border-image-outset     : 2px .8;
+    }
+
+
+/* Class Block - Transparent */
+.phb .classTable
+    {
+        border-image-outset     : 25px 10px !important;
+        width                   : 90%;
+        margin-left             : auto;
+        margin-right            : auto;
+        line-height             : 11px;
+        border-image-source     : url(https://i.imgur.com/WCvoc5n.png);
+        background-color        : #212224;
+    }
+
+
+/* Monster Statblock */
+.phb hr+section blockquote {
+        background-image	: unset;
+        background-color	: #212224;
+        border-width		: 5px;
+        border-image		: url(https://i.imgur.com/5KxXe0N.png);
+        border-image-slice      : 20;
+        background-position     : center;
+    }
+ 
+.phb hr+section blockquote hr {
+        background-image        : url(https://i.imgur.com/soxLpIZ.png)
+    }
+
+.phb hr+section blockquote table tr:nth-child(odd) td {
+        background-color        : inherit;
+    }
+
+.phb hr+section blockquote {
+        box-shadow              : none;
+    }
+ 
+.phb hr+section blockquote h3 {
+        border-bottom		: 2px solid #f1af09;
+    }
+
+.phb hr+section blockquote hr+ul {
+        color                   : #d3d3d3;
+    }
+
+.phb hr+section blockquote table {
+        color                   : #d3d3d3;
+    }
+
+
+/* Mask Config */
+
+.frame {
+        position                : absolute;
+        overflow                : hidden;
+    }
+
+.relative {
+        position                : relative !important;
+    }
+
+.frame.whole {
+        top			: 0 !important;
+        left                    : 0 !important;
+        height                  : 100% !important;
+        width                   : 100% !important;
+    }
+
+.frame img {
+        position                : absolute;
+    }
+
+
+/* Watercolor frames */
+  
+.wcFrame {
+        position                : absolute;
+        -webkit-mask-repeat     : no-repeat;
+        -webkit-mask-size       : contain;
+        -webkit-mask-position   : center;
+    }
+  
+.wcImage {
+        position		: absolute;
+    }
+  
+.wcFrame.circle1 {
+        -webkit-mask-image      : url('https://i.imgur.com/rVTIXGr.png');
+    }
+
+.wcFrame.circle2 {
+        -webkit-mask-image	: url('https://i.imgur.com/A2saYTi.png');
+    }
+
+.wcFrame.left {
+        -webkit-mask-image	: url('https://i.imgur.com/ciLZuBc.png');
+    }
+  
+.wcFrame.top {
+        -webkit-mask-image      : url('https://i.imgur.com/ghviFil.png');
+        mask-type		:alpha;
+    }
+
+
+/* Hyperlinks Config */
+
+.phb a {
+        color			: #00f2f2;
+        text-decoration		: none;
+    }
+
+.phb a:hover{
+        text-decoration		: underline;
+    }
+
+
+/* Front Cover */
+
+.phb#p1 h1 {
+        --shadow-x0             : #000 0px 0px 3.5px;
+        --shadow-x1             : var(--shadow-x0), var(--shadow-x0), var(--shadow-x0);
+        --shadow-x2             : var(--shadow-x1), var(--shadow-x1), var(--shadow-x1);
+        --shadow-x3             : var(--shadow-x2), var(--shadow-x2), var(--shadow-x2);
+        text-shadow             : var(--shadow-x3), var(--shadow-x3), var(--shadow-x3);
+        font-family             : Nodesto;
+        font-weight             : normal;
+        font-size               : 6em;
+        color                   : white;
+        line-height             : 70px;
+        transform               : scaleX(0.94);
+        text-transform          : uppercase;
+    }
+
+.phb#p1 hr {
+        visibility              : visible;
+        position                : relative;
+        top                     : -16px;
+        height                  : 64px;
+        width                   : 450px;
+        margin                  : 2px auto -24px;
+        background-image        : url(https://i.imgur.com/U4Cveto.png);
+        background-size         : 100% 100%;
+        border                  : none;
+    }
+
+.phb#p1 h2 {
+        --shadow-x0             : #000 0px 0px 2.5px;
+        --shadow-x1             : var(--shadow-x0), var(--shadow-x0), var(--shadow-x0);
+        --shadow-x2             : var(--shadow-x1), var(--shadow-x1), var(--shadow-x1);
+        --shadow-x3             : var(--shadow-x2), var(--shadow-x2), var(--shadow-x2);
+        text-shadow             : var(--shadow-x3), var(--shadow-x3), var(--shadow-x3);
+        font-family             : Nodesto;
+        font-weight             : normal;
+        font-size               : 2em;
+        letter-spacing          : 0.3px;
+        color                   : white;
+    }
+
+.phb#p1 {
+        text-align              : center;
+        counter-increment       : none;
+    }
+
+
+/* Back Cover */
+
+.phb:last-child {
+        column-count            : 1;
+        padding-top             : 30px;
+        padding-right           : 440px;
+        padding-bottom          : 30px;
+        padding-left            : 30px;
+    }
+
+.phb:last-child:after {
+        all                     : unset;
+    }
+
+.phb:last-child h1 {
+        text-align              : center;
+        font-family             : "Nodesto";
+        font-size               : 300%;
+        font-weight             : normal;
+        letter-spacing          : -1px;
+        line-height             : 0.9em;
+        transform               : scaleX(1);
+        color                   : white;
+        margin-top              : 0px;
+        margin-bottom           : 25px;
+    }
+
+.phb:last-child h2 {
+        text-align               : center;
+    }
+
+.phb:last-child p {
+        text-align               : center;
+    }
+
+.phb:last-child hr {
+        visibility               : visible;
+        position                 : relative;
+        margin                   : auto;
+        margin-bottom            : 25px;
+        top                      : 25px;
+        height                   : 52px;
+        width                    : 230px;
+        background-image         : url(https://i.imgur.com/U4Cveto.png);
+        background-size          : 100% 50%;
+        background-repeat        : no-repeat;
+        border                   : none;
+    }

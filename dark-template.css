@@ -33,13 +33,13 @@
 
 /* Background Config */
 .phb:nth-child(2n) {
-        background-image        : url('https://www.gmbinder.com/images/ptCCaCF.png');
+        background-image        : url('https://i.imgur.com/ptCCaCF.png');
         background-size         : contain;
         color			: #d3d3d3;
     }
 
 .phb:nth-child(2n+1) {
-        background-image        : url('https://www.gmbinder.com/images/pkN47Lw.png?1');
+        background-image        : url('https://i.imgur.com/pkN47Lw.png?1');
         background-size         : contain;
     }
 
@@ -328,7 +328,7 @@ table tr:nth-child(odd) td {
         height                  : 64px;
         width                   : 450px;
         margin                  : 2px auto -24px;
-        background-image        : url(https://www.gmbinder.com/images/U4Cveto.png);
+        background-image        : url(https://i.imgur.com/U4Cveto.png);
         background-size         : 100% 100%;
         border                  : none;
     }
@@ -395,7 +395,7 @@ table tr:nth-child(odd) td {
         top                      : 25px;
         height                   : 52px;
         width                    : 230px;
-        background-image         : url(https://www.gmbinder.com/images/U4Cveto.png);
+        background-image         : url(https://i.imgur.com/U4Cveto.png);
         background-size          : 100% 50%;
         background-repeat        : no-repeat;
         border                   : none;

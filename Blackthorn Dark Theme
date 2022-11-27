@@ -1,0 +1,160 @@
+<style>
+/* Blackthorn Dark Theme by /u/blckthorn */
+
+/* Background */
+.phb { background-image: url('https://www.gmbinder.com/images/JqTA2SE.jpg') }
+.phb { background-size: cover }
+
+
+
+/* #, ##, ###,  ####*/
+.phb h4, .phb h2, .phb h1 {font-weight: 100; color: #d3e5da;}
+.phb h3 {font-weight: 100; color: #d3e5da; border-bottom: 2px solid #d9b257}
+.phb h5 {color: #e1e5e3;}
+
+
+
+/* Main Text, Links, First Letter after # */
+.phb {color: #edf2ef;}
+.phb a{color: #d9b257;}
+.phb h1+p::first-letter{color:#e1e5e2;}
+
+
+
+/* Class Block - Transparent */
+.phb .classTable
+{
+    border-image-outset: 25px 10px !important;
+    align:center;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:11px;
+    border-image-source: url(https://www.gmbinder.com/images/SgEeH1u.png);
+    background-color: inherit;
+}
+
+
+
+/* Tables */
+table tr:nth-child(odd) td {background-color: #454d47;}
+
+
+
+/* Notes Block*/
+.phb blockquote {background-color: #748078; color: #000;}
+.phb blockquote h1 {font-weight: 100; color: #FFF;}
+.phb blockquote h2 {font-weight: 100; color: #FFF;}
+.phb blockquote h3 {font-weight: 100; color: #FFF;}
+.phb blockquote h4 {font-weight: 100; color: #FFF;}
+.phb blockquote h5 {font-weight: 100; color: #FFF;}
+
+
+
+/*Description Block*/
+.phb .descriptive{background-color:#171a18; border-image:url(https://www.gmbinder.com/images/W2snoqV.png); border-image-outset:4px}
+.phb .descriptive {color: #FFF}
+.phb .descriptive h1 {font-weight: 100; color: #d1e5d7}
+.phb .descriptive h2 {font-weight: 100; color: #d1e5d7}
+.phb .descriptive h3 {font-weight: 100; color: #d1e5d7}
+.phb .descriptive h4 {font-weight: 100; color: #d1e5d7}
+.phb .descriptive h5 {font-weight: 100; color: #d1e5d7}
+
+
+
+/* Monster Statblock */
+.phb hr+section blockquote
+{
+    background-image: url('https://www.gmbinder.com/images/VlOUbjY.png');
+    border-image: url('https://www.gmbinder.com/images/kIjTWRV.png');
+    background-position: center;
+}
+ 
+.phb hr+section blockquote hr {background-image: url(https://www.gmbinder.com/images/nyuK5zP.png)} 
+.phb hr+section blockquote table tr:nth-child(odd) td {background-color: inherit;}
+.phb hr+section blockquote {box-shadow: none;}
+ 
+.phb hr+section blockquote {color: #000;}
+.phb hr+section blockquote h1 {color: #000;}
+.phb hr+section blockquote h2 {color: #000;}
+.phb hr+section blockquote h3 {font-family:Calibri;border-bottom:1px solid #000;color: #000}
+.phb hr+section blockquote h4 {color: #000;}
+.phb hr+section blockquote h5 {color: #000;}
+.phb hr+section blockquote hr+ul {color: #000;}
+.phb hr+section blockquote table {color: #000;}
+
+
+
+/* Part Page Header Text Color */
+.phb .partpage {background-image:url(https://www.gmbinder.com/images/6mU9UPK.png);}
+.phb .partpage {color: #171a18;}
+.phb .partpage h1{color: #171a18;}
+.phb .partpage h2{color: #171a18;}
+.phb .partpage h3{color: #171a18;}
+.phb .partpage h4{color: #171a18;}
+.phb .partpage h5{color: #171a18;}
+
+.phb .partpage-dmg {background-image:url(https://www.gmbinder.com/images/TkOugaQ.png);}
+.phb .partpage-dmg {color: #222623;}
+.phb .partpage-dmg h1{color: #e1e5e3;}
+.phb .partpage-dmg h2{color: #e1e5e3;}
+.phb .partpage-dmg h3{color: #e1e5e3;}
+.phb .partpage-dmg h4{color: #e1e5e3;}
+.phb .partpage-dmg h5{color: #000;}
+
+
+
+/* Footer */
+.phb:nth-child(odd):after{ 
+    content          : '';
+    position         : absolute;
+    bottom           : -12px;
+    left             : 20px;
+    z-index          : 100;
+    height           : 336px;
+    width            : 99%;
+    background-image : url('https://www.gmbinder.com/images/HQdqQI2.png');
+    background-size  : cover;
+}
+.phb:nth-child(even):after{ 
+    content          : '';
+    position         : absolute;
+    bottom           : -12px;
+    left             : -12px;
+    z-index          : 100;
+    height           : 336px;
+    width            : 99%;
+    background-image : url('https://www.gmbinder.com/images/WRvKgzu.png');
+    background-size  : cover;
+}
+
+/* Footnote */
+.phb .footnote{
+    position   : absolute;
+    right      : 80px;
+    bottom     : 32px;
+    z-index    : 150;
+    width      : 700px;
+    text-align : right;
+    color      : #8fa898;
+    font-size  : 13pt;
+    letter-spacing: 0.5px;
+    font-variant: small-caps;
+}
+
+/* Page Number */
+.phb .pageNumber.auto{
+    font-size: 13pt;
+    color: #8fa898;
+    position   : absolute;
+    bottom     : 32px;
+    width      : 50px;
+    text-align : center;
+}
+.phb:nth-child(even) .pageNumber.auto{
+    left      : 5px;
+}
+.phb:nth-child(odd) .pageNumber.auto{
+    right      : 5px;
+}
+</style>

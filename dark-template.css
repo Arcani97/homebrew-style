@@ -275,19 +275,19 @@ table tr:nth-child(odd) td {
     }
   
 .wcFrame.circle1 {
-        -webkit-mask-image      : url('https://www.gmbinder.com/images/rVTIXGr.png');
+        -webkit-mask-image      : url('https://i.imgur.com/rVTIXGr.png');
     }
 
 .wcFrame.circle2 {
-        -webkit-mask-image	: url('https://www.gmbinder.com/images/A2saYTi.png');
+        -webkit-mask-image	: url('https://i.imgur.com/A2saYTi.png');
     }
 
 .wcFrame.left {
-        -webkit-mask-image	: url('https://www.gmbinder.com/images/ciLZuBc.png');
+        -webkit-mask-image	: url('https://i.imgur.com/ciLZuBc.png');
     }
   
 .wcFrame.top {
-        -webkit-mask-image      : url('https://www.gmbinder.com/images/ghviFil.png');
+        -webkit-mask-image      : url('https://i.imgur.com/ghviFil.png');
         mask-type		:alpha;
     }
 
